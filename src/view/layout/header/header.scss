@@ -1,0 +1,27 @@
+Header {
+  background-color: #e77f67;
+  height: 50px;
+  line-height: 50px;
+  ul {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      font-size: 1.7rem;
+      a {
+        color: #303952;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      a:hover {
+        color: #63cdda;
+      }
+      .active {
+        color: #63cdda;
+        font-weight: bold;
+      }
+    }
+  }
+}
